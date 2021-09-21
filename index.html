@@ -1,0 +1,520 @@
+<html lang="en">
+
+<head>
+    <title>Sleepjon</title>
+</head>
+
+<body>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+         .slider-holder
+        {
+            width: 800px;
+            height: 400px;
+            background-color: yellow;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 100px;
+            text-align: center;
+            overflow: hidden;
+        }
+       
+        .image-holder
+        {
+            width: 2400px;
+            background-color: rgb(26, 1, 1);
+            height: 400px;
+            clear: both;
+            position: relative;
+           
+            -webkit-transition: left 2s;
+            -moz-transition: left 2s;
+            -o-transition: left 2s;
+            transition: left 2s;
+        }
+       
+        .slider-image
+        {
+            float: top;
+            margin: 100px;
+            padding: 0px;
+            position: relative;
+        }
+       
+        #slider-image-1:target ~ .image-holder
+        {
+            left: -50px;
+        }
+       
+        #slider-image-2:target ~ .image-holder
+        {
+            left: -800px;
+        }
+       
+        #slider-image-3:target ~ .image-holder
+        {
+            left: -1600px;
+        }
+       
+        .button-holder
+        {
+            position: relative;
+            top: -20px;
+        }
+       
+        .slider-change
+        {
+            display: inline-block;
+            height: 10px;
+            width: 10px;
+            border-radius: 5px;
+            background-color: brown;
+        }
+        #header {
+            background-color: cadetblue;
+            height: 70px;
+            line-height: 200px;
+            text-align: center;
+            margin: 0px;
+        }
+
+        #logo {
+            width: 40%;
+            text-align: center;
+            height: 70px;
+            line-height: 70px;
+            float: left;
+            
+        }
+
+        #bio {
+            width: 70%;
+
+        }
+
+        #navbar {
+            width: 60%;
+            text-align: center;
+            line-height: 70px;
+            height: 70px;
+            float: right;
+        }
+
+        img {
+            border-radius: 160px;
+        }
+
+        h1 {
+            color: cornsilk;
+            margin: 0px;
+        }
+
+        a {
+            color: cornsilk;
+            text-decoration: none;
+            margin-right: 45px;
+            line-height: 70px;
+        }
+
+        body {
+            margin: 0px;
+        }
+
+        #foo {
+            background-color: cadetblue;
+            height: 400px;
+
+        }
+    </style>
+<div id="header">
+        <div id="logo">
+            <h1>Sleepjon</h1>
+        </div>
+        <div id="navbar">
+            <a href="">Home</a>
+            <a href="">Shop</a>
+            <a href="">About Us</a>
+            <a href="">Shipping and Returns</a>
+        </div>
+    </div>
+    <div class="slider-holder">
+        <span id="slider-image-1"></span>
+        <span id="slider-image-2"></span>
+        <span id="slider-image-3"></span>
+        <div class="image-holder">
+            <img src="1.jpg" class="slider-image" />
+            <img src="2.jpg" class="slider-image" />
+            <img src="3.jpg" class="slider-image" />
+        </div>
+        <div class="button-holder">
+            <a href="#slider-image-1" class="slider-change"></a>
+            <a href="#slider-image-2" class="slider-change"></a>
+            <a href="#slider-image-3" class="slider-change"></a>
+        </div>
+    </div>
+    <div id="main">
+        <h2>Our Story</h2>
+
+        <p style="font-size: large; text-align: center;">
+            We had started our journey in 2019, by the name of SLEEPJON.
+
+            We are into the business of home furnishing and we are provide comfort for
+
+            every home. There is a continuous pursuit of excellence in performance, quality and innovation, and the
+            passion to bring to you the highest, premium quality pillows in the home furnishings space.
+
+            Innovation and customization is our biggest strength. Our continuous efforts and investment in new
+            innovation, materials, design trends and substrates, provides customers with a wide variety of contemporary
+            products.
+
+            Our mission is to provide you with the restful and comfy sleep. We believe in making your sleep easier. We
+            create pillows for people who have different body types and sleeping styles, and hence, they should have
+            access to a wide range of pillows to choose as per their comfort levels and personal choice.
+        </p>
+
+        <table style="width: 100%;height: 100%;">
+            <h2>Our products</h2>
+            <td>
+            <th style="background-color: red;width: 30%;">
+
+            </th>
+            <th style="width: 70%;float: inline-start;">
+                <h2>SleepJon Regular soft pillow</h2>
+                <p>
+                    <strong> TRADITIONAL SHAPE </strong>of The Memory Foam Pillows For Sleeping : are a great
+                    alternative from the cotton filled Or microfiber pillows, which sag and clump soon after use. The
+                    Pillows help in relieving pressure ,back pain and provide neck pain relief.
+                </p>
+                <p><strong>ZERO PRESSURE RELIEF & PERFECT COMFORT WITH HIGH DENSITY : </strong>The regular Memory foam
+                    pillows are not just comfortable, but also provides relief from backaches, headaches, neck issues or
+                    other pain related problems which we face due to stress.</p>
+                <p><strong>UXURY SLEEPING PILLOW :</strong> Provides therapeutic relief for all sleepers and neck pain.
+                    It Comes with a premium Outer Cover with a zip which is soft and easy on the skin: Get these pillows
+                    and match with them your favourite bedsheets and pillow covers.</p>
+                <p><strong>HEALTHY & SAFE :</strong> Safe to use, eco-friendly, the pillows are hypoallergenic and free
+                    from any dust mites and irritants.These pillows are nice and thick (4 inches height) and work well
+                    with individuals who like more thickness and bulk.
+                </p>
+
+
+            </th>
+
+
+            </td>
+
+
+        </table>
+
+
+
+
+        <table style="width: 100%;height: 100%;">
+            <h2>Our products</h2>
+            <td>
+            <th style="background-color: red;width: 30%;">
+
+            </th>
+            <th style="width: 70%;float: inline-start;">
+                <h2>SleepJon Bamboo fabric pillow</h2>
+                <p>
+                    Perfect Ergonomic Design for Neck & Back provides Multiple Support and Comfort: provides better
+                    support to the Cervical Spine Area than any traditional pillow.
+
+                    The traditional pillow is very easy to adjust and maintains the natural curve of the neck to support
+                    the neck properly.
+
+                    Made with High Density Memory foam, keeps the shape of the head, neck and shoulder well supported,
+                    and offers maximum comfort during sleep.
+
+                    Ideal for all Sleeping Positions: The High and low curved surfaces at both ends provide a custom fit
+                    to satisfy any side, back or stomach sleeper.
+
+                    Removable, washable, Bamboo outer cover with a zip along with stitched jersey inner fabric is soft,
+                    breathable and protects the inner memory foam
+                </p>
+
+
+            </th>
+
+
+            </td>
+
+
+        </table>
+        <table style="width: 100%;height: 100%;">
+            <h2>Our products</h2>
+            <td>
+            <th style="background-color: red;width: 30%;">
+
+            </th>
+            <th style="width: 70%;float: inline-start;">
+                <h2> SleepJon Cloudix Natural Latex Feel Foam Pillow </h2>
+                <p>
+                    HEALTHY & SAFE: These pillows are ideal for side sleepers. Perfect sleeping support for your Neck,
+                    allowing the nervous system to work naturally even while you are asleep
+
+                    Also provide optimal breath ability. This Pillow for sleeping is recommended by most Doctors because
+                    this has produced magical result in severe case of spondylitis and cervical
+
+                    Latex foam conforms to the shape of the head and neck. This pillow reduces neck pain and helps side
+                    sleepers sleep comfortably.
+
+                    Produced in SleepJon, a material designed exclusively by SleepJon , these pillows are the highest
+                    expression of excellence when it comes to comfort and ergonomics, essential for ensuring a perfect
+                    sleep experience from every point of view.‎
+
+                    Comes with two cover Inner & Outer
+                </p>
+
+
+            </th>
+
+
+            </td>
+
+
+        </table>
+
+        </table>
+        <table style="width: 100%;height: 100%;">
+            <h2>Our products</h2>
+            <td>
+            <th style="background-color: red;width: 30%;">
+
+            </th>
+            <th style="width: 70%;float: inline-start;">
+                <h2> SleepJon Contour baby pillow </h2>
+                <p>
+                    MEMORY FOAM CORE - orthopaedic pillow that perfectly moulds around your head and neck, slowly
+                    bounces back to readjust its shape giving you optimal head and neck support whilst you sleep.
+
+                    ERGONOMIC NECK PILLOW - contour wave shape memory foam neck pillow with 2 heights designed for side
+                    and back sleepers. Supports your head and neck in neutral alignment. Prevents neck strain, allows
+                    you to breathe with ease and reduces snoring.
+
+                    COMFORTABLE & SKIN FRIENDLY - breathable outer fabric with double airflow properties for optimal
+                    temperature and sweat prevention. Hypoallergenic, resistant to dust mite and mold. You can enjoy
+                    uninterrupted and refreshing sleep in all seasons.
+
+                    PROTECTIVE OUTER AND INNER COVERS - protective pillow cases for good hygiene. Breathable ultra soft
+                    mesh outer cover has a hidden zipper for ease of removal and the cover is machine washable.
+                </p>
+
+
+            </th>
+
+
+            </td>
+
+
+        </table>
+        </table>
+
+        </table>
+        <table style="width: 100%;height: 100%;">
+            <h2>Our products</h2>
+            <td>
+            <th style="background-color: red;width: 30%;">
+
+            </th>
+            <th style="width: 70%;float: inline-start;">
+                <h2> Sleepjon Foam Contour Orthopaedic Pillow </h2>
+                <p>
+                    HEALTHY & SAFE: These pillows are ideal for all type of sleepers. Perfect sleeping support for your
+                    Neck, allowing the nervous system to work naturally even while you are asleep
+
+                    Also provide optimal breath ability. This Pillow for sleeping is recommended by most Doctors because
+                    this has produced magical result in severe case of spondylitis and cervical
+
+                    Memory foam conforms to the shape of the head and neck. This pillow reduces neck pain and helps side
+                    sleepers sleep comfortably.
+
+                    Produced in SleepJon, a material designed exclusively by SleepJon , these pillows are the highest
+                    expression of excellence when it comes to comfort and ergonomics, essential for ensuring a perfect
+                    sleep experience from every point of view.‎
+
+                    Comes with two cover Inner & Outer
+                </p>
+
+
+            </th>
+
+
+            </td>
+
+
+        </table>
+
+    </div>
+
+
+    </table>
+    </table>
+
+    </table>
+    <table style="width: 100%;height: 100%;">
+        <h2>Our products</h2>
+        <td>
+        <th style="background-color: red;width: 30%;">
+
+        </th>
+        <th style="width: 70%;float: inline-start;">
+            <h2> SleepJon ultra soft traditional pillow (orange) </h2>
+            <p>
+                TRADITIONAL SHAPE of The Memory Foam Pillows For Sleeping : are a great alternative from the cotton
+                filled Or microfiber pillows, which sag and clump soon after use. The Pillows help in relieving pressure
+                ,back pain and provide neck pain relief.
+
+                ZERO PRESSURE RELIEF & PERFECT COMFORT WITH HIGH DENSITY : The regular Memory foam pillows are not just
+                comfortable, but also provides relief from backaches, headaches, neck issues or other pain related
+                problems which we face due to stress.
+
+                LUXURY SLEEPING PILLOW - Provides therapeutic relief for all sleepers and neck pain. It Comes with a
+                premium Outer Cover with a zip which is soft and easy on the skin: Get these pillows and match with them
+                your favourite bedsheets and pillow covers.
+
+                HEALTHY & SAFE : Safe to use, eco-friendly, the pillows are hypoallergenic and free from any dust mites
+                and irritants.
+
+                These pillows are nice and thick (4 inches height) and work well with individuals who like more
+                thickness and bulk.
+            </p>
+
+
+        </th>
+
+
+        </td>
+
+
+    </table>
+
+    <table style="width: 100%;height: 100%;">
+        <h2>Our products</h2>
+        <td>
+        <th style="background-color: red;width: 30%;">
+
+        </th>
+        <th style="width: 70%;float: inline-start;">
+            <h2> SleepJon Traditional pillow (grey) </h2>
+            <p>
+                TRADITIONAL SHAPE of The Memory Foam Pillows For Sleeping : are a great alternative from the cotton filled Or microfiber pillows, which sag and clump soon after use. The Pillows help in relieving pressure ,back pain and provide neck pain relief. 
+
+ZERO PRESSURE RELIEF & PERFECT COMFORT WITH HIGH DENSITY : The regular Memory foam pillows are not just comfortable, but also provides relief from backaches, headaches, neck issues or other pain related problems which we face due to stress. 
+
+LUXURY SLEEPING PILLOW - Provides therapeutic relief for all sleepers and neck pain. It Comes with a premium Outer Cover with a zip which is soft and easy on the skin: Get these pillows and match with them your favourite bedsheets and pillow covers. 
+
+HEALTHY & SAFE : Safe to use, eco-friendly, the pillows are hypoallergenic and free from any dust mites and irritants. 
+
+These pillows are nice and thick (4 inches height) and work well with individuals who like more thickness and bulk. 
+            </p>
+
+
+        </th>
+
+
+        </td>
+
+
+    </table>
+    <table style="width: 100%;height: 100%;">
+        <h2>Our products</h2>
+        <td>
+        <th style="background-color: red;width: 30%;">
+
+        </th>
+        <th style="width: 70%;float: inline-start;">
+            <h2> SleepJon Traditional pillow  </h2>
+            <p>
+                Traditional shape and an advanced memory foam formula 
+
+                Maneuver your pillow to help relieve pressure, stress, and tension from your neck and shoulders to receive a better night's sleep 
+                
+                Conforms to your head and neck quickly and retains less heat than a regular foam pillow 
+                
+                Luxury brushed-velour zippered fleece cover promotes cozy sleep, is hypo-allergenic, stain repellent, and machine washable 
+                
+                Memory foam is molded, not cut, to ensure consistency and durability. 
+            </p>
+
+
+        </th>
+
+
+        </td>
+
+
+    </table>
+
+    </div>
+
+
+
+    <div id="foo">
+        <div>
+            <table style="width: 100%;height: 100%;">
+                <td style="vertical-align: text-top;">
+                    <h2>About Us</h2>
+                    <ul class="links-contact">
+                        <li class="address">
+                          <span>E31A ,Near heera sweets Laxminagar New Delhi</span>
+                        </li>
+                         <li class="mail">
+                          <span>info@fusionjon.com</span>
+                        </li>
+                         <li class="phone">
+                          <span>9810358257</span>
+                        </li>
+                      </ul>
+                      <div style="line-height: 50px;">
+                        <span><a href=""> <i class="fab fa-facebook"></i></a></span>
+                        <span><a href=""> <i class="fab fa-twitter"></i></a></span>
+                        <span><a href=""> <i class="fab fa-linkedin"></i></a></span>
+                        <span><a href=""> <i class="fab fa-instagram"></i></a></span>
+                    </div>
+                    <!-- <th style="background-color: brown;"></th> -->
+                </td>
+                
+                <td style="vertical-align: text-top;text-align: center;">
+                    <!-- <th style="background-color: green;"> -->
+                        <h2 style="text-align: center;">Information</h2>
+                        <li>
+                            <a href="/pages/contact-us">Contact Us</a>
+                          </li>
+                          
+                          <li>
+                            <a href="/pages/shipping-and-returns">Shipping & Returns</a>
+                          </li>
+                          
+                          <li>
+                            <a href="/pages/privacy-policy">Privacy</a>
+                          </li>
+                          
+                          <li>
+                            <a href="/pages/terms-of-service">Terms</a>
+                          </li>
+                          
+                          <li>
+                            <a href="/pages/warranty">Warranty</a>
+                          </li>
+    
+                    <!-- </th> -->
+                <!-- </td> -->
+                <td style="vertical-align: text-top; text-align: center;">
+<h2 style="text-align: center;">Customer Services</h2>
+<li>
+    <a href="/pages/contact-us">Contact Us</a>
+  </li>
+                    <!-- <th style="background-color: hotpink;"> -->
+    
+                    </th>
+                </td>
+
+            </table>
+            </div>
+</div>
+</body>
+
+</html>
